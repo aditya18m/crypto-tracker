@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Geist';
+  src: url('Geist-Black-BF6569491cec591.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Grozen';
+    src: url('GROZEN-MEDICAL-Medium-BF65d7e7a4c3ffe.otf') format('opentype');
+}
+
+body {
+    background: rgba(3, 17, 198, 1.0);
+    background: radial-gradient(at left bottom, rgba(3, 17, 198, 1.0), rgba(25, 17, 107, 1.0));
+    /* Created with https://www.css-gradient.com */
+    background: #0C0221;
+    background: -webkit-linear-gradient(top, #0C0221, #18106B);
+    background: -moz-linear-gradient(top, #0C0221, #18106B);
+    background: linear-gradient(to bottom, #0C0221, #18106B);
+    background-size: 350% 350%;
+    font-family: 'Grozen', sans-serif;
+}
+
+h1 {
+    
+    font-family: 'Grozen', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    background: #286899;
+    background: linear-gradient(to right, #286899 0%, #2FD5E0 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: 3em;
+    color: #AACCFF;
+}
+
+form {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Geist', sans-serif;
+    color: #AACCFF
+}
+
+button {
+    font-family: 'Geist', sans-serif;
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:hover {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:focus {
+    outline: none;
+}
+
+.listform {
+    text-align: center;
+    width: 25em;
+    color: #063275;
+    font-family: 'Geist', sans-serif;
+}
+
+#final {
+    text-transform: uppercase;
+    /* background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;*/
+    color: #2FD5E0;
+    font-family:  'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
+    text-align: center;
+    font-weight: 5em;
+    
+}
